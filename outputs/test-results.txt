@@ -1,0 +1,55 @@
+test_every_prefix_identical_to_full_run_snapshot (test_backtester.CausalityTests.test_every_prefix_identical_to_full_run_snapshot) ... ok
+test_future_mutation_does_not_change_past (test_backtester.CausalityTests.test_future_mutation_does_not_change_past) ... ok
+test_no_same_bar_reuse_of_new_4h_zone (test_backtester.CausalityTests.test_no_same_bar_reuse_of_new_4h_zone) ... ok
+test_pivot_confirmation_never_postdates_decision (test_backtester.CausalityTests.test_pivot_confirmation_never_postdates_decision) ... ok
+test_exports_contain_full_trade_and_debug_sequence (test_backtester.ConfigAndReportTests.test_exports_contain_full_trade_and_debug_sequence) ... ok
+test_invalid_config_and_limit_fail_explicitly (test_backtester.ConfigAndReportTests.test_invalid_config_and_limit_fail_explicitly) ... ok
+test_plot_contains_all_required_markers (test_backtester.ConfigAndReportTests.test_plot_contains_all_required_markers) ... ok
+test_unknown_config_key_rejected (test_backtester.ConfigAndReportTests.test_unknown_config_key_rejected) ... ok
+test_unresolved_choices_rejected (test_backtester.ConfigAndReportTests.test_unresolved_choices_rejected) ... ok
+test_csv_round_trip_and_close_timestamps (test_backtester.DataTests.test_csv_round_trip_and_close_timestamps) ... ok
+test_dst_ambiguous_and_nonexistent_naive_rejected (test_backtester.DataTests.test_dst_ambiguous_and_nonexistent_naive_rejected) ... ok
+test_dst_aware_is_unambiguous (test_backtester.DataTests.test_dst_aware_is_unambiguous) ... ok
+test_duplicate_unsorted_missing_and_nonfinite_rejected (test_backtester.DataTests.test_duplicate_unsorted_missing_and_nonfinite_rejected) ... ok
+test_h4_emits_only_after_sixteen_closes (test_backtester.DataTests.test_h4_emits_only_after_sixteen_closes) ... ok
+test_missing_candle_does_not_create_partial_h4 (test_backtester.DataTests.test_missing_candle_does_not_create_partial_h4) ... ok
+test_partial_first_and_last_h4_discarded (test_backtester.DataTests.test_partial_first_and_last_h4_discarded) ... ok
+test_required_csv_columns (test_backtester.DataTests.test_required_csv_columns) ... ok
+test_timestamp_offset_normalization (test_backtester.DataTests.test_timestamp_offset_normalization) ... ok
+test_timezone_changes_h4_alignment (test_backtester.DataTests.test_timezone_changes_h4_alignment) ... ok
+test_entry_next_open_can_exit_same_candle (test_backtester.EndToEndTests.test_entry_next_open_can_exit_same_candle) ... ok
+test_exact_long_prices_and_times (test_backtester.EndToEndTests.test_exact_long_prices_and_times) ... ok
+test_incomplete_4h_future_high_not_used (test_backtester.EndToEndTests.test_incomplete_4h_future_high_not_used) ... ok
+test_last_confirmation_next_open_order_remains_pending (test_backtester.EndToEndTests.test_last_confirmation_next_open_order_remains_pending) ... ok
+test_long_and_short_win_loss_ambiguous (test_backtester.EndToEndTests.test_long_and_short_win_loss_ambiguous) ... ok
+test_new_bos_cancels_pending_setup_not_open_trade (test_backtester.EndToEndTests.test_new_bos_cancels_pending_setup_not_open_trade) ... ok
+test_next_open_changes_entry_and_recomputes_target (test_backtester.EndToEndTests.test_next_open_changes_entry_and_recomputes_target) ... ok
+test_no_exit_using_confirmation_candle_extremes (test_backtester.EndToEndTests.test_no_exit_using_confirmation_candle_extremes) ... ok
+test_short_is_price_mirror (test_backtester.EndToEndTests.test_short_is_price_mirror) ... ok
+test_equal_extreme_policy_explicit (test_backtester.EntryTests.test_equal_extreme_policy_explicit) ... ok
+test_fib_extension_touch_order_unresolved (test_backtester.EntryTests.test_fib_extension_touch_order_unresolved) ... ok
+test_fib_from_end_back_to_start (test_backtester.EntryTests.test_fib_from_end_back_to_start) ... ok
+test_first_touch_must_be_lowest_so_far (test_backtester.EntryTests.test_first_touch_must_be_lowest_so_far) ... ok
+test_long_touch_cannot_confirm_itself (test_backtester.EntryTests.test_long_touch_cannot_confirm_itself) ... ok
+test_new_low_after_touch_all_policies (test_backtester.EntryTests.test_new_low_after_touch_all_policies) ... ok
+test_premium_discount_bounded_and_midpoint_policy (test_backtester.EntryTests.test_premium_discount_bounded_and_midpoint_policy) ... ok
+test_short_confirmation_strict_close_not_wick (test_backtester.EntryTests.test_short_confirmation_strict_close_not_wick) ... ok
+test_close_below_low_short (test_backtester.PivotAndStructureTests.test_close_below_low_short) ... ok
+test_pivot_low_and_strict_ties (test_backtester.PivotAndStructureTests.test_pivot_low_and_strict_ties) ... ok
+test_pivot_waits_for_two_closed_right_candles (test_backtester.PivotAndStructureTests.test_pivot_waits_for_two_closed_right_candles) ... ok
+test_unconfirmed_high_never_available (test_backtester.PivotAndStructureTests.test_unconfirmed_high_never_available) ... ok
+test_wick_and_equal_close_do_not_break (test_backtester.PivotAndStructureTests.test_wick_and_equal_close_do_not_break) ... ok
+test_custom_rr_explicit_override (test_backtester.RiskAndStatisticsTests.test_custom_rr_explicit_override) ... ok
+test_default_rr_is_two (test_backtester.RiskAndStatisticsTests.test_default_rr_is_two) ... ok
+test_drawdown_and_streaks_by_exit_order (test_backtester.RiskAndStatisticsTests.test_drawdown_and_streaks_by_exit_order) ... ok
+test_dual_touch_never_winner (test_backtester.RiskAndStatisticsTests.test_dual_touch_never_winner) ... ok
+test_empty_statistics_are_json_safe (test_backtester.RiskAndStatisticsTests.test_empty_statistics_are_json_safe) ... ok
+test_gap_stop_fills_open_not_optimistic_stop (test_backtester.RiskAndStatisticsTests.test_gap_stop_fills_open_not_optimistic_stop) ... ok
+test_gap_unresolved_mode (test_backtester.RiskAndStatisticsTests.test_gap_unresolved_mode) ... ok
+test_statistics_exclude_unresolved_and_open (test_backtester.RiskAndStatisticsTests.test_statistics_exclude_unresolved_and_open) ... ok
+test_stop_strictly_outside_touch (test_backtester.RiskAndStatisticsTests.test_stop_strictly_outside_touch) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 0.474s
+
+OK

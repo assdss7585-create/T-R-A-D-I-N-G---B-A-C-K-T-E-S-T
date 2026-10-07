@@ -1,0 +1,11 @@
+Trade #1: SHORT / AMBIGUOUS_INTRABAR
+Profile: SYNTHETIC DEMO ONLY — provisional choices, not approved strategy rules
+2025-01-07T12:00:00+00:00 | BOS_4H_DETECTED | {"direction": "SHORT", "broken_swing": {"kind": "LOW", "price": 190.0, "timestamp": "2025-01-06T08:00:00+00:00", "confirmed_at": "2025-01-06T20:00:00+00:00"}, "origin": {"kind": "HIGH", "price": 210.0, "timestamp": "2025-01-06T20:00:00+00:00", "confirmed_at": "2025-01-07T08:00:00+00:00"}, "range_low": 184.0, "range_high": 210.0}
+2025-01-07T12:30:00+00:00 | ZONE_ENTERED | {"zone": "PREMIUM", "range_low": 184.0, "range_high": 210.0, "midpoint": 197.0}
+2025-01-07T14:00:00+00:00 | CHOCH_15M_DETECTED | {"broken_swing": {"kind": "LOW", "price": 192.0, "timestamp": "2025-01-07T12:45:00+00:00", "confirmed_at": "2025-01-07T13:30:00+00:00"}}
+2025-01-07T14:00:00+00:00 | FIB_LEG_SELECTED | {"fib_start": 202.0, "fib_end": 188.0, "fib_start_time": "2025-01-07T13:15:00+00:00", "fib_end_time": "2025-01-07T13:45:00+00:00"}
+2025-01-07T14:00:00+00:00 | FIB_0618_CALCULATED | {"fib_0618": 196.652}
+2025-01-07T14:30:00+00:00 | TOUCH_DETECTED | {"touch_time": "2025-01-07T14:15:00+00:00", "high": 197.0, "low": 192.0, "fib_0618": 196.652}
+2025-01-07T14:45:00+00:00 | CONFIRMATION_DETECTED | {"price": 191.0}
+2025-01-07T14:45:00+00:00 | ENTRY | {"trade_id": 1, "entry_price": 191.0, "stop_loss": 197.1, "take_profit": 178.8, "risk_reward": 2.0}
+2025-01-07T15:00:00+00:00 | EXIT | {"trade_id": 1, "trade_setup_id": 1, "result": "AMBIGUOUS_INTRABAR", "exit_price": null, "R_multiple": null}

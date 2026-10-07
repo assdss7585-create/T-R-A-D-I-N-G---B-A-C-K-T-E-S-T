@@ -1,0 +1,22 @@
+{
+  "total_trades": 1,
+  "resolved_trades": 1,
+  "wins": 0,
+  "losses": 1,
+  "win_rate_pct": 0.0,
+  "profit_factor": 0.0,
+  "expectancy_r": -1.0,
+  "total_r": -1.0,
+  "average_winner_r": null,
+  "average_loser_r": -1.0,
+  "max_drawdown_r": 1.0,
+  "maximum_consecutive_wins": 0,
+  "maximum_consecutive_losses": 1,
+  "long_trades": 0,
+  "short_trades": 1,
+  "ambiguous_intrabar": 0,
+  "gap_unresolved": 0,
+  "open_trades": 0,
+  "metric_scope": "Resolved trades only; gross R; no fees/spread/slippage; realized-equity drawdown",
+  "ordering": "Exit observation time; simultaneous exits grouped for drawdown; trade_id breaks streak ties"
+}

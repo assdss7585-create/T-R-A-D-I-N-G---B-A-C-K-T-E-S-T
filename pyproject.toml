@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mtf-backtester"
+version = "0.1.0"
+description = "Causal, auditable 4H / 15m strategy research engine"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+mtf-backtest = "mtf_backtest.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mtf_backtest*"]

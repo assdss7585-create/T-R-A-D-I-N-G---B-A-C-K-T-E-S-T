@@ -1,0 +1,144 @@
+
+SYNTHETIC SCENARIO: long_win
+{
+  "total_trades": 1,
+  "resolved_trades": 1,
+  "wins": 1,
+  "losses": 0,
+  "win_rate_pct": 100.0,
+  "profit_factor": "Infinity",
+  "expectancy_r": 2.0,
+  "total_r": 2.0,
+  "average_winner_r": 2.0,
+  "average_loser_r": null,
+  "max_drawdown_r": 0.0,
+  "maximum_consecutive_wins": 1,
+  "maximum_consecutive_losses": 0,
+  "long_trades": 1,
+  "short_trades": 0,
+  "ambiguous_intrabar": 0,
+  "gap_unresolved": 0,
+  "open_trades": 0,
+  "metric_scope": "Resolved trades only; gross R; no fees/spread/slippage; realized-equity drawdown",
+  "ordering": "Exit observation time; simultaneous exits grouped for drawdown; trade_id breaks streak ties"
+}
+
+SYNTHETIC SCENARIO: short_win
+{
+  "total_trades": 1,
+  "resolved_trades": 1,
+  "wins": 1,
+  "losses": 0,
+  "win_rate_pct": 100.0,
+  "profit_factor": "Infinity",
+  "expectancy_r": 2.0,
+  "total_r": 2.0,
+  "average_winner_r": 2.0,
+  "average_loser_r": null,
+  "max_drawdown_r": 0.0,
+  "maximum_consecutive_wins": 1,
+  "maximum_consecutive_losses": 0,
+  "long_trades": 0,
+  "short_trades": 1,
+  "ambiguous_intrabar": 0,
+  "gap_unresolved": 0,
+  "open_trades": 0,
+  "metric_scope": "Resolved trades only; gross R; no fees/spread/slippage; realized-equity drawdown",
+  "ordering": "Exit observation time; simultaneous exits grouped for drawdown; trade_id breaks streak ties"
+}
+
+SYNTHETIC SCENARIO: long_loss
+{
+  "total_trades": 1,
+  "resolved_trades": 1,
+  "wins": 0,
+  "losses": 1,
+  "win_rate_pct": 0.0,
+  "profit_factor": 0.0,
+  "expectancy_r": -1.0,
+  "total_r": -1.0,
+  "average_winner_r": null,
+  "average_loser_r": -1.0,
+  "max_drawdown_r": 1.0,
+  "maximum_consecutive_wins": 0,
+  "maximum_consecutive_losses": 1,
+  "long_trades": 1,
+  "short_trades": 0,
+  "ambiguous_intrabar": 0,
+  "gap_unresolved": 0,
+  "open_trades": 0,
+  "metric_scope": "Resolved trades only; gross R; no fees/spread/slippage; realized-equity drawdown",
+  "ordering": "Exit observation time; simultaneous exits grouped for drawdown; trade_id breaks streak ties"
+}
+
+SYNTHETIC SCENARIO: short_loss
+{
+  "total_trades": 1,
+  "resolved_trades": 1,
+  "wins": 0,
+  "losses": 1,
+  "win_rate_pct": 0.0,
+  "profit_factor": 0.0,
+  "expectancy_r": -1.0,
+  "total_r": -1.0,
+  "average_winner_r": null,
+  "average_loser_r": -1.0,
+  "max_drawdown_r": 1.0,
+  "maximum_consecutive_wins": 0,
+  "maximum_consecutive_losses": 1,
+  "long_trades": 0,
+  "short_trades": 1,
+  "ambiguous_intrabar": 0,
+  "gap_unresolved": 0,
+  "open_trades": 0,
+  "metric_scope": "Resolved trades only; gross R; no fees/spread/slippage; realized-equity drawdown",
+  "ordering": "Exit observation time; simultaneous exits grouped for drawdown; trade_id breaks streak ties"
+}
+
+SYNTHETIC SCENARIO: long_ambiguous
+{
+  "total_trades": 1,
+  "resolved_trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "win_rate_pct": null,
+  "profit_factor": null,
+  "expectancy_r": null,
+  "total_r": 0,
+  "average_winner_r": null,
+  "average_loser_r": null,
+  "max_drawdown_r": 0.0,
+  "maximum_consecutive_wins": 0,
+  "maximum_consecutive_losses": 0,
+  "long_trades": 1,
+  "short_trades": 0,
+  "ambiguous_intrabar": 1,
+  "gap_unresolved": 0,
+  "open_trades": 0,
+  "metric_scope": "Resolved trades only; gross R; no fees/spread/slippage; realized-equity drawdown",
+  "ordering": "Exit observation time; simultaneous exits grouped for drawdown; trade_id breaks streak ties"
+}
+
+SYNTHETIC SCENARIO: short_ambiguous
+{
+  "total_trades": 1,
+  "resolved_trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "win_rate_pct": null,
+  "profit_factor": null,
+  "expectancy_r": null,
+  "total_r": 0,
+  "average_winner_r": null,
+  "average_loser_r": null,
+  "max_drawdown_r": 0.0,
+  "maximum_consecutive_wins": 0,
+  "maximum_consecutive_losses": 0,
+  "long_trades": 0,
+  "short_trades": 1,
+  "ambiguous_intrabar": 1,
+  "gap_unresolved": 0,
+  "open_trades": 0,
+  "metric_scope": "Resolved trades only; gross R; no fees/spread/slippage; realized-equity drawdown",
+  "ordering": "Exit observation time; simultaneous exits grouped for drawdown; trade_id breaks streak ties"
+}

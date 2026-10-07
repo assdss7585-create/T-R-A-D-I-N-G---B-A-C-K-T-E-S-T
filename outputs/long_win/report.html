@@ -1,0 +1,41 @@
+<!doctype html><html lang="ar" dir="rtl"><meta charset="utf-8">
+<title>تقرير اختبار الاستراتيجية</title><style>
+body{font:17px system-ui;max-width:1000px;margin:35px auto;padding:24px;background:#f3f6fa;color:#172638}
+table{width:100%;border-collapse:collapse;direction:ltr;background:white}td{padding:9px;border-bottom:1px solid #dce3eb}
+h1{color:#146d71}a{color:#09648e}pre{direction:ltr;text-align:left;white-space:pre-wrap;background:#fff;padding:20px}
+.note{background:#fff2ca;padding:16px;border-radius:8px}</style>
+<h1>اختبار 4H → 15m</h1><p class="note">SYNTHETIC DEMO ONLY — provisional choices, not approved strategy rules<br>
+الإعدادات التجريبية ليست قواعد نهائية معتمدة. النتائج المصطنعة لفحص المنطق فقط.</p>
+<p>المؤشرات مبنية على الصفقات المحسومة فقط؛ الصفقات الغامضة والمفتوحة مستبعدة من الربح والخسارة.
+الأرقام بوحدة R قبل الرسوم والسبريد والانزلاق. السحب الأقصى محسوب من النتائج المحققة.</p>
+<table><tr><td>total_trades</td><td>1</td></tr><tr><td>resolved_trades</td><td>1</td></tr><tr><td>wins</td><td>1</td></tr><tr><td>losses</td><td>0</td></tr><tr><td>win_rate_pct</td><td>100.0</td></tr><tr><td>profit_factor</td><td>Infinity</td></tr><tr><td>expectancy_r</td><td>2.0</td></tr><tr><td>total_r</td><td>2.0</td></tr><tr><td>average_winner_r</td><td>2.0</td></tr><tr><td>average_loser_r</td><td>None</td></tr><tr><td>max_drawdown_r</td><td>0.0</td></tr><tr><td>maximum_consecutive_wins</td><td>1</td></tr><tr><td>maximum_consecutive_losses</td><td>0</td></tr><tr><td>long_trades</td><td>1</td></tr><tr><td>short_trades</td><td>0</td></tr><tr><td>ambiguous_intrabar</td><td>0</td></tr><tr><td>gap_unresolved</td><td>0</td></tr><tr><td>open_trades</td><td>0</td></tr></table><h2>الصفقات</h2><ul><li>#1 LONG — WIN: <a href="debug_trade_1.txt">Debug</a> · <a href="trade_1.svg">Chart</a></li></ul>
+<p><a href="trades.csv">سجل الصفقات</a> · <a href="events.jsonl">سجل الأحداث</a> ·
+<a href="run_manifest.json">الإعدادات وهوية البيانات</a></p>
+<details><summary>الإعدادات الفعلية</summary><pre>{
+  &quot;timezone&quot;: &quot;UTC&quot;,
+  &quot;source_timezone&quot;: &quot;UTC&quot;,
+  &quot;timestamp_label&quot;: &quot;open&quot;,
+  &quot;h4_anchor_minutes&quot;: 0,
+  &quot;data_gaps&quot;: &quot;error&quot;,
+  &quot;risk_reward&quot;: 2.0,
+  &quot;entry_mode&quot;: &quot;confirmation_close&quot;,
+  &quot;stop_mode&quot;: &quot;touch_extreme&quot;,
+  &quot;stop_buffer&quot;: 0.1,
+  &quot;structural_break_mode&quot;: &quot;once_per_pivot&quot;,
+  &quot;h4_origin&quot;: &quot;last_confirmed_opposite_pivot&quot;,
+  &quot;h4_range_end&quot;: &quot;freeze_at_bos&quot;,
+  &quot;zone_detection&quot;: &quot;range_overlap&quot;,
+  &quot;zone_midpoint&quot;: &quot;include&quot;,
+  &quot;choch_timing&quot;: &quot;later_candle&quot;,
+  &quot;fib_origin&quot;: &quot;last_confirmed_opposite_pivot&quot;,
+  &quot;fib_end&quot;: &quot;freeze_at_choch&quot;,
+  &quot;correction_start&quot;: &quot;after_choch&quot;,
+  &quot;touch_extreme_ties&quot;: &quot;allow_equal&quot;,
+  &quot;failed_first_touch&quot;: &quot;cancel_setup&quot;,
+  &quot;post_touch_extreme&quot;: &quot;keep_first&quot;,
+  &quot;setups_per_bos&quot;: &quot;one&quot;,
+  &quot;new_bos_pending&quot;: &quot;cancel&quot;,
+  &quot;concurrent_positions&quot;: &quot;allow&quot;,
+  &quot;gap_execution&quot;: &quot;open_price&quot;,
+  &quot;profile_label&quot;: &quot;SYNTHETIC DEMO ONLY \u2014 provisional choices, not approved strategy rules&quot;
+}</pre></details></html>
